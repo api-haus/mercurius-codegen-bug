@@ -1,0 +1,1 @@
+["type Query {\n  add(x: Int, y: Int): Int\n}"]

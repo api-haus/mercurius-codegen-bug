@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "codegen": "npm run build && node ./dist/src/bin/codegen.js",
+    "serve": "npm run build && node ./dist/src/bin/server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.3.0",
+    "mercurius": "^10.1.0",
+    "mercurius-codegen": "^4.0.1",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}
